@@ -1,0 +1,70 @@
+.board {
+    text-align: center;
+}
+
+.border{
+    margin: 3em auto 1em;
+    height: 25em;
+    width: 25em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: .25em;
+    border-radius: 3em;
+}
+
+div.row > div {
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: right ;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.cell {
+    
+    font-size: 6.7em;
+    color: black;
+
+}
+
+#tag {
+    color:black
+}
+
+body{
+  
+    text-align: center;
+}
+
+button {
+
+    cursor: pointer;
+    color: black;
+
+}
+
+button:active{
+    transform: translateY(4px);
+
+}
